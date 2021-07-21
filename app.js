@@ -32,10 +32,10 @@ var data={
 
 
 var jsonData=JSON.stringify(data);
-const url="https://us7.api.mailchimp.com/3.0/lists/a7258812bc";
+const url="secret";
 const options={
   method:"POST",
-    auth:"razvan:1e323e6ea4a1cf855431664233027f71-us7"
+    auth:"razvan:mailchimp_authentification"
 };
 
 const request= https.request(url, options, function(response){
